@@ -1,0 +1,81 @@
+/* Structure */
+body {
+    background-color: #4f5f70;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url(images/forest.webp);
+}
+
+#content {
+    background-color: #4f5f70;
+    width: 75%;
+    margin: auto;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+/* Navigation */
+
+
+#main-nav a{
+    text-decoration: none;
+    background: #03621b;
+    color:blue;
+    padding: 5px;
+    border-radius:  4px;
+}
+
+#main-nav a:hover {
+    background-color: green;
+}
+
+
+/* Table */
+td,th {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: white;
+}
+
+th{
+    background: yellow;
+}
+
+th{
+    background: #03621b;
+}
+
+table{
+    border-collapse: collapse;
+}
+/* Typography */
+
+h1{
+    color: blue;
+    font-style: italic;
+}
+
+h2{
+    color: blue;
+}
+
+#l-table {
+    font-style: italic;
+}
+
+strong {
+    color: blue;
+}
+
+.large{
+    font-size: 25px;
+}
+
+/* Media */
+
+img {
+    padding: 7px;
+    margin: 7px;
+    border: 10px solid #03621b;
+    width: 450px;
+    height: 350px;
+}
