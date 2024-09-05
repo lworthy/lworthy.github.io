@@ -1,0 +1,26 @@
+/* Structure */
+body {
+
+}
+
+#content {
+
+}
+
+.columns-all {
+    display:flex;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Larger Resolutions */
+
+@media only screen and (min-width:600px) {
+    #content {
+        
+    }
+}
