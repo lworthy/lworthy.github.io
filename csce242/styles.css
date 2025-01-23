@@ -1,3 +1,36 @@
 body{
     background-color: bisque;
 }
+
+
+#main-nav li {
+    list-style-type: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: #3f2b27;
+
+}
+
+#main-nav a:hover {
+    color: #3f2b27;
+    border-bottom: 2px solid #3f2b27;
+}
+
+#main-nav ul {
+    padding-left: 0;
+}
+
+#content{
+    background-color: white;
+    width:70%;
+    margin: auto; /* Center */
+    padding: 5px;
+    border: 7px solid #3f2b27;
+    border-radius: 5px;
+}
+
+#content h1, h2 {
+    text-align: center;
+}
