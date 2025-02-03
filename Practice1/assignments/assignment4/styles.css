@@ -1,21 +1,240 @@
-:root{
-    --black:black;
-    --maroon:maroon;
-    --grey:grey;
-    --white:white;
-
+body {
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+    font-weight: 500;
+    max-width: 100%;
 }
 
-
-body{
-    background: white;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-    margin: 0;
-}
-
-#banner{
+@media only screen and (min-width: 200px) and (max-width: 767px){}
+#header {
+    padding: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    min-height: 55px;
     background: black;
-    width: 100%;
-    height: 150px;
+
+    }
+    #main-header
+    {
+        background-color: black;
+        color: white;
+        margin:auto;
+        padding: 0%;
+    }
+    #main-image{
+        list-style-image: none;
+        list-style-position: outside;
+        text-align: left;
+        vertical-align: middle;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+.column01 {
+
+}
+    
+.column02 {
+    margin: auto;
+    padding: 5px;
+     
+    border-left: #73000a;
+
+}
+
+.column03 {
+
+}
+.text{
+    padding-left: 20px;
+    padding-top:20px;
+}
+
+.img{
+    max-width:25%;
+    max-height:15%;
+    
+}
+
+
+#mainContent {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin: 0px 0px 20px;
+    border-bottom: 1px solid #C7C7C7;
+    padding-bottom: 20px;
+}
+
+/*Navigation */
+#header-nav ul {
+    padding-left: 0;
+    text-decoration: none;
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+    color: white;
+}
+
+#header-nav li {
+    list-style-type: none;
+    padding-left: 5px;
+    background-color: #1A1859;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+#header-nav a {
+    text-decoration: none;
+    color:white;
+}
+
+#header-nav a:hover {
+    background: #CC2E40;
+    color:white;
+}
+
+
+#footer-nav01{
+    list-style-type: none;
+    display: inline;
+    font-size: 10px;
+    font-family: "Berlinske Sans", Arial, sans-serif;
+    /* height: auto;
+    text-align: left;
+    line-height: 26.200001px;
+    padding-bottom: 7.5px;
+     */
+}
+
+#footer-nav01 a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer-nav01 a:hover {
+    background: #CC2E40;
+    color:white;
+}
+
+
+
+#main-nav ul {
+    padding-left: 0;
+    text-decoration: none;
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding-left: 5px;
+    background-color: #1A1859;
+    border-bottom: 1px solid;
+    text-decoration: none;
+
+}
+  #main-nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+#main-nav a:hover {
+    background: #CC2E40;
+    color:white;
+    
+}
+
+#side-nav{
+    list-style-type: none;
+    display: inline;
+    font-size: 10px;
+    font-family: "Berlinske Sans", Arial, sans-serif;
+    height: auto;
+    text-align: left;
+    line-height: 26.200001px;
+    padding-bottom: 7.5px;
+    
+}
+
+#side-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#side-nav a:hover {
+    background: #CC2E40;
+    color:white;
+}
+/* Typography */
+#main-header h1 {
+    text-align: center;
+}
+
+/* Larger Resoultion */
+
+@media (min-width: 900px)
+{
+    #main-nav ul, .flex-container, #side-nav {
+     display: flex;
+    }
+
+    #main-nav li, .columnDH, #side-nav {
+        flex: 1;
+    }
+
+    .text{
+        flex:1;
+    }
+
+
+}
+    
+#section-title{
+    background: #73000a;
+    color: white;
+    margin: auto;
+    padding-top: 0%;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+
+    width: 1110px;
+    display: block;
+    line-height: 22.4px;
+}
+
+.hgroup {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 5px solid #73000a;
+    border-right: gray;
+
+}
+
+.hgroup2 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 5px solid #73000a;
+    border-right: gray;
+    background-color: #ececec;
+}
+
+.footer-title{
+    background-color: #ececec;
+
+    font-size: 18.200001px;
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+}
+#main-footer
+{
+    background-color: #570008;
+    color: white; 
+   
 }
