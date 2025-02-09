@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h1 {
+    color: lavender;
+}
+
+h2 {
+    color: lavenderblush;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: salmon;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    min-height: 200px;
+}
+
+/* Hello Section */
+#hello-container {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Pick a Color Section */
+#color-picker {
+    margin: 10px 0;
+}
+
+#star {
+    font-size: 50px;
+    color: black;
+}
+
+/* Image Change Section */
+#changeable-image {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: lavender;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

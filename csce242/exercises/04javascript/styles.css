@@ -1,9 +1,12 @@
 /* Structure */
 :root {
-    --main-background-color:
+    --main-background-color:#CDECEF;
+    --primary-color:#2B91AD;
+    --gallery-color:#FFB58A;
 }
+
 body {
-    background:#CDECEF;
+    background:var(--main-background-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,7 +19,7 @@ body {
 }
 
 header, footer {
-    background:#2B91AD;
+    background:var(--primary-color);
     color:white;
     position:relative;
     padding:20px 0;
@@ -36,7 +39,7 @@ main {
 }
 
 .idea:nth-child( even ) {
-    background:#CDECEF;
+    background:var(--main-background-color);
 }
 
 .idea-img {
@@ -48,12 +51,12 @@ main {
 
 .idea-img p {
     padding:5px;
-    background:#2B91AD;
+    background:var(--primary-color);
     color:white;
 }
 
 .gallery {
-    background:#FFB58A;
+    background:var(--gallery-color);
 }
 
 .links {
@@ -79,7 +82,7 @@ main {
     background:blue;
     border-radius:50px;
     animation-name: fun;
-    position: relative;
+    position:relative;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
@@ -93,15 +96,15 @@ main {
     20% {background-color: orange;}
     40% {background-color: yellow;}
     60% {background-color:aqua;
-        left: 100px;
-        top: 200px;
+        left:100px;
+        top:200px;
     }
     70% {background-color: green;}
     80% {background-color: indigo;}
     100% {
         background-color: violet;
-        top: 200px;
-        left: 0;
+        top:0px;
+        left:0;
     }
   }
 
@@ -129,7 +132,7 @@ main {
 }
 
 #main-nav li {
-    background:#FFB58A;
+    background:var(--gallery-color);
 }
 
 #sub-nav li {
