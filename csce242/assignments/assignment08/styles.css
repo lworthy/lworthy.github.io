@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2C3E50; 
+    color: #ECF0F1; 
+    margin: 0;
+}
+
+header h1, header h2 {
+    color: #ECF0F1;
+}
+
+h2 {
+    color: #F39C12; 
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #34495E; 
+    padding: 10px;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ECF0F1;
+    cursor: pointer;
+}
+
+/* Menu Toggle Button */
+#menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ECF0F1;
+}
+
+/* Sections */
+#exercise1, #exercise2 {
+    display: none;
+    margin-top: 20px;
+    background-color: #34495E; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Show Exercise 1 by Default */
+#exercise1 {
+    display: block;
+}
+
+/* Transport Image */
+#transportImage img {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #E74C3C; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #C0392B; 
+}
+
+/* Heart Styling */
+#heart-container {
+    margin: 20px auto;
+    width: 60px; 
+    height: 60px;
+}
+
+#heart {
+    width: 60px; 
+    height: 54px; 
+    background-color: white;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 10px auto;
+}
+
+#heart:before, #heart:after {
+    content: "";
+    width: 60px;
+    height: 54px;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#heart:before {
+    top: -30px;
+    left: 0;
+}
+
+#heart:after {
+    left: 30px;
+    top: 0;
+}
