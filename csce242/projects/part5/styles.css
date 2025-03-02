@@ -298,3 +298,61 @@ nav {
     text-decoration: underline;
 }
 
+/* About Page General Styling */
+.story, .team, .values, .testimonials {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8e8;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+/* Restaurant Image */
+.story img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Meet the Team */
+.chef-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.chef-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.chef-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Values Section */
+.values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+
