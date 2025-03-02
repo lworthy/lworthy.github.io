@@ -31,11 +31,11 @@ class Pizza {
 
 // Array of pizzas
 const pizzas = [
-    new Pizza("Hawaiian", "hawaiian.png", ["Ham", "Pineapple"], "Tomato", "Mozzarella", 15.5),
-    new Pizza("Buffalo Chicken Ranch", "bcr.png", ["Chicken", "Ranch Sauce"], "Buffalo Sauce", "Cheddar", 18.2),
-    new Pizza("Margarita", "margarita.png", ["Basil", "Tomatoes"], "Extra Virgin Olive Oil", "Fresh Mozzarella", 19.2),
-    new Pizza("Pepperoni", "pepperoni.png", ["Pepperoni"], "Tomato", "Mozzarella", 17.0),
-    new Pizza("Veggie", "veggie.png", ["Mushrooms", "Olives", "Peppers"], "Tomato", "Mozzarella", 16.5)
+    new Pizza("Hawaiian", "hawaiian.jpg", ["Ham", "Pineapple"], "Tomato", "Mozzarella", 15.5),
+    new Pizza("Buffalo Chicken Ranch", "bcr.jpg", ["Chicken", "Ranch Sauce"], "Buffalo Sauce", "Cheddar", 18.2),
+    new Pizza("Margarita", "margarita.jpg", ["Basil", "Tomatoes"], "Extra Virgin Olive Oil", "Fresh Mozzarella", 19.2),
+    new Pizza("Pepperoni", "pepperoni.jpg", ["Pepperoni"], "Tomato", "Mozzarella", 17.0),
+    new Pizza("Veggie", "veggie.jpg", ["Mushrooms", "Olives", "Peppers"], "Tomato", "Mozzarella", 16.5)
 ];
 
 // Render pizzas
