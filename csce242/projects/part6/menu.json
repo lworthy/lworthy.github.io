@@ -6,7 +6,8 @@
         "description": "Juicy beef patty with smoky bacon, melted cheddar, crispy fried onions, and house-made BBQ sauce.",
         "price": "$16",
         "category": "Burgers",
-        "calories": "850 kcal"
+        "calories": "850 kcal",
+        "page_link": "burger.html"
     },
     {
         "_id": 2,
